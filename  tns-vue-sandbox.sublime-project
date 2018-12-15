@@ -1,0 +1,18 @@
+{
+	"folders": [{
+		"path": ".",
+		"folder_exclude_patterns": [
+			"app/fonts",
+			"hooks",
+			"platforms"
+		],
+		"file_exclude_patterns": [
+			"*.log",
+			"*.map",
+			"*.md",
+			"*.png",
+			"*.svg",
+			"*.ttf"
+		]
+	}]
+}

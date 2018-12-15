@@ -1,0 +1,33 @@
+{
+	"scripts": {
+		"a": "tns run android --bundle",
+		"au": "adb uninstall org.nativescript.myblankvue || true",
+		"rmp": "del platforms"
+	},
+	"nativescript": {
+		"id": "org.nativescript.myblankvue",
+		"tns-android": {
+			"version": "5.1.0"
+		}
+	},
+	"dependencies": {
+		"nativescript-theme-core": "latest",
+		"nativescript-vue": "latest",
+		"tns-core-modules": "latest",
+		"vue-class-component": "latest",
+		"vue-property-decorator": "latest",
+		"vue-router": "latest",
+		"vuex": "latest"
+	},
+	"devDependencies": {
+		"@babel/core": "latest",
+		"@babel/preset-env": "latest",
+		"babel-loader": "latest",
+		"nativescript-dev-webpack": "latest",
+		"nativescript-vue-template-compiler": "latest",
+		"ts-loader": "latest",
+		"typescript": "latest",
+		"vue": "latest",
+		"vue-loader": "latest"
+	}
+}
